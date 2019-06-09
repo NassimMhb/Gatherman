@@ -1,0 +1,15 @@
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\bin\Debug\netstandard2.0\Gatherman.deps.json
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\bin\Debug\netstandard2.0\Gatherman.dll
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\bin\Debug\netstandard2.0\ref\Gatherman.dll
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\bin\Debug\netstandard2.0\Gatherman.pdb
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.csproj.CoreCompileInputs.cache
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.AssemblyInfoInputs.cache
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.AssemblyInfo.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.dll
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\ref\Gatherman.dll
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.pdb
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.csprojAssemblyReference.cache

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Gatherman.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="MasterLayout">
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Image x:Name="LoginIcon" Source="logoGath.png" Margin="0,80,0,0" />
+            </StackLayout>
+
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand" Padding="30, 30,30,30">
+
+                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="true" />
+
+
+                <Label x:Name="Label_Utilisateur"  Text="Utilisateur" />
+                <Entry x:Name="Entry_Utilisateur" Placeholder="Utilisateur" />
+                <Label x:Name="Label_MotDePasse"  Text="Mot de passe" />
+                <Entry x:Name="Entry_MotDePasse" Placeholder="Mot de passe" />
+                <Button x:Name="Btn_SeConnecter" Text="Se connecter"  Clicked="FunctionSeConnecter"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
