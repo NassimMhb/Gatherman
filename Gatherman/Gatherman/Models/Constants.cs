@@ -11,6 +11,6 @@ namespace Gatherman.Models
         public static Color BackgroundColor = Color.FromRgb(255, 255, 255);
         public static Color MainTextColor = Color.White;
 
-        public static int LoginIconHeight = 48;
+        public static int LoginIconHeight = 54;
     }
 }

@@ -12,4 +12,9 @@ C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstanda
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\ref\Gatherman.dll
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.pdb
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\HamburgerMenu.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\PageProfil.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\PageAjouterCommercants.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\PageCommercants.xaml.g.cs
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Views\PageParametres.xaml.g.cs
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman\obj\Debug\netstandard2.0\Gatherman.csprojAssemblyReference.cache

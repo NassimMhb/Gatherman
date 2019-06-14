@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Gatherman.Views.HamburgerMenu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="DodgerBlue" Padding="0,40,0,0" >
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="1" BackgroundColor="White" Padding="20">
+                    <Image HeightRequest="60" WidthRequest="60" Source="logoGath.png" Margin="0,20,0,0"/>
+                    <Image HeightRequest="60" WidthRequest="60" Source="iconApp.png" Margin="0,20,0,0"/>
+                </StackLayout>
+
+                <ListView Grid.Row="2" BackgroundColor="White" x:Name="ListMenu" ItemSelected="ListMenu_ItemSelected" >
+                    <ListView.ItemTemplate >
+                        <DataTemplate >
+                            <ViewCell Height="100">
+                                <StackLayout Orientation="Horizontal" Margin="7" >
+                                    <Image Source="{Binding icon}"/>
+                                    <Label TextColor="Black" Text="{Binding MenuTitle}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

@@ -20,7 +20,7 @@ namespace Gatherman.Models
         }
         public bool CheckInformation()
         {
-            if (!this.NomUtilisateur.Equals("") && !this.MotDePasse.Equals(""))
+            if (!this.NomUtilisateur.Equals(" ") && !this.MotDePasse.Equals(" "))
                 return true;
             else
                 return false;

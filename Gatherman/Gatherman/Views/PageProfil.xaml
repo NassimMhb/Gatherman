@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Gatherman.Views.PageProfil" Title="Profil de l'agent">
+    <ContentPage.Content BackgroundColor="{StaticResource BackgroundColor}">
+        <ScrollView>
+            <Grid ColumnSpacing="0" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="AUTO" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="AUTO" />
+                </Grid.RowDefinitions>
+
+                <!--  header background  -->
+                <Image Aspect="AspectFill" Source="loginb.jpg" />
+                <Image Aspect="Fill" Margin="0,-1,0,-1" Source="CurvedMask.png" VerticalOptions="End" />
+
+                <!--  profile image  -->
+                <Image HeightRequest="100" HorizontalOptions="Center" Source="circleNassim.jpg" TranslationY="50" VerticalOptions="End" WidthRequest="100" />
+
+                <!--  Profile Name  -->
+                <StackLayout Grid.Row="1" Padding="0,50,0,00" HorizontalOptions="Center">
+                    <Frame BackgroundColor="DodgerBlue" Padding="6" Margin="5" CornerRadius="10">
+                        <Label Style="{StaticResource ProfileNameLabel}" Text="Nassim Mouhoubi" TextColor="White" />
+                    </Frame>
+                    <Label Margin="0,-5" Style="{StaticResource ProfileTagLabel}" Text="Agent" />
+                </StackLayout>
+
+                <!--  Social Stats Section  
+                <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout>
+                        <Label Style="{StaticResource StatsNumberLabel}" Text="33" />
+                        <Label Style="{StaticResource StatsCaptionLabel}" Text="Likes" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1">
+                        <Label Style="{StaticResource StatsNumberLabel}" Text="94" />
+                        <Label Style="{StaticResource StatsCaptionLabel}" Text="Following" />
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2">
+                        <Label Style="{StaticResource StatsNumberLabel}" Text="957" />
+                        <Label Style="{StaticResource StatsCaptionLabel}" Text="Followers" />
+                    </StackLayout>
+                </Grid>-->
+
+                <!--  profile description  -->
+
+                <StackLayout  Grid.Row="2" Margin="20, 25">
+                    <Label  Margin="5" Style="{StaticResource ProfileTextLabel}" Text="Né le 08/07/1994" />
+                    <Label Margin="5" Style="{StaticResource ProfileTextLabel}" Text="à Marseille" />
+                    <Label Margin="5" Style="{StaticResource ProfileTextLabel}" Text="06-51-67-56-54"  />
+                    <Label Margin="5" Style="{StaticResource ProfileTextLabel}" Text="3 rue de la villard, 87566 "/>
+                </StackLayout>
+                <!--
+                <StackLayout  Grid.Row="4">
+                    <Image  HeightRequest="100" Source="nuage.png" WidthRequest="100" />
+                </StackLayout>
+   -->
+                <!--   <Label Margin="20,0" Grid.Row="3" Style="{StaticResource StatsNumberLabel}" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada ultricies arcu nec egestas. Nam porta fermentum aliquam. Nullam tincidunt odio purus." />
+               -->
+                <!--  follow button  -->
+                <Button Clicked="AccesAppliWeb" Grid.Row="4" Margin="20" Style="{StaticResource FollowButton}" Text="Accéder à Viewstats" />
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

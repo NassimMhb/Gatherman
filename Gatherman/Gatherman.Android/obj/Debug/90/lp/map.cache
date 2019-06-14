@@ -1,5 +1,4 @@
 FormsViewGroup
-Gatherman
 SQLite-net
 SQLitePCLRaw.batteries_green
 SQLitePCLRaw.batteries_v2
@@ -51,5 +50,6 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+Gatherman
 netstandard
 System.Reflection.Extensions

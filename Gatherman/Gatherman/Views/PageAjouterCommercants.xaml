@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Gatherman.Views.PageAjouterCommercants">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Editor Placeholder="Entrez le nom"
+               Text="{Binding NomCommercant}"
+               HeightRequest="60" />
+            <Editor Placeholder="Entrez le prénom"
+               Text="{Binding PrenomCommercant}"
+               HeightRequest="60" />
+            <Editor Placeholder="Entrez le chiffre d'affaire"
+               Text="{Binding ChiffreAffaire}"
+               HeightRequest="60" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Text="Enregistrer"
+                   Clicked="EnregistrerCommercant" />
+                <Button Grid.Column="1"
+                   Text="Supprimer"
+                   Clicked="SupprimerCommercant"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
