@@ -38,11 +38,11 @@ namespace Gatherman.Views
                       Date = File.GetCreationTime(filename)
                       */
                     Filename = "",
-                    NomCommercant = "René",
-                    PrenomCommercant = "Laport",
+                    NomCommercant = "Chuck",
+                    PrenomCommercant = "Norris",
                     ChiffreAffaire = 12332,
                     Date = new DateTime(2018, 6, 21),
-                    PhotoDeProfil = "photoprofil.png"
+                    PhotoDeProfil = "chucknorris.png"
 
                 });
         //    }
@@ -53,7 +53,7 @@ namespace Gatherman.Views
                 PrenomCommercant = "Homer",
                 ChiffreAffaire = 134873,
                 Date = new DateTime(2018, 6, 21),
-                PhotoDeProfil = "photoprofil.png"
+                PhotoDeProfil = "simpsonhomer.png"
 
             }); listeCommercants.Add(new Commercants
             {
@@ -82,6 +82,22 @@ namespace Gatherman.Views
             await Navigation.PushAsync(new PageAjouterCommercants
             {
                 BindingContext = new Commercants()
+            });
+        }
+
+        async void UpdateCommercant(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageModifier
+            {
+               
+            });
+        }
+
+        async void AfficherDetailsCommercant(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageAfficherDetails
+            {
+              
             });
         }
 

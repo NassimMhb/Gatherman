@@ -546,3 +546,5 @@ C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\9
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\90\res\drawable\chucknorris.png
+C:\Users\nmouhoub\source\repos\Gatherman\Gatherman\Gatherman.Android\obj\Debug\90\res\drawable\simpsonhomer.png

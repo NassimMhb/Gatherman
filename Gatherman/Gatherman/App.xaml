@@ -90,6 +90,22 @@
                 <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
                 <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
             </Style>
+            <Style x:Key="UpButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#64dd17" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="BorderRadius" Value="15" />
+                <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
+                <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
+            </Style>
+            <Style x:Key="SupButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#c62828" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="BorderRadius" Value="15" />
+                <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
+                <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -28,7 +28,7 @@
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="AUTO" />
                                         </Grid.RowDefinitions>
-                                <Frame BackgroundColor="White" CornerRadius="50" Margin="5" BorderColor="DodgerBlue" >
+                                        <Frame BackgroundColor="White" CornerRadius="35" Margin="5" BorderColor="DodgerBlue" >
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="4"/>
@@ -36,7 +36,7 @@
                                                 </Grid.ColumnDefinitions>
                                         <StackLayout Grid.Column="1" HeightRequest="90">
                                             <Image  Source="{Binding PhotoDeProfil}" WidthRequest="48" HeightRequest="48" />
-                                            <Button Text="Detail" FontSize="10" TextColor="Cyan" BackgroundColor="White"  />
+                                            <Button Text="Detail" FontSize="10" TextColor="Cyan" BackgroundColor="White" Clicked="AfficherDetailsCommercant" />
                                         </StackLayout>
                                            
                                         <StackLayout Grid.Column="2">
@@ -55,7 +55,7 @@
                                                     <ColumnDefinition Width="AUTO" />
                                                     <ColumnDefinition Width="AUTO" />
                                                 </Grid.ColumnDefinitions>
-                                                <Button Grid.Column="1"  Text="Modifier"  FontSize="10" TextColor="LightGreen" BackgroundColor="White" Margin="0,2,0,0" />
+                                                <Button Grid.Column="1"  Text="Modifier"  FontSize="10" TextColor="LightGreen" BackgroundColor="White" Margin="0,2,0,0" Clicked="UpdateCommercant" />
                                                 <Button Grid.Column="2" Text="Supprimer"  FontSize="10"  TextColor="Red" BackgroundColor="White" Margin="0,2,0,0"  />
                                             </Grid>
                                         </StackLayout >
